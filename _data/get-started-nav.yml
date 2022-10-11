@@ -1,0 +1,4 @@
+- label: Get started
+  items:
+  - ref: madaster-glossary
+  - ref: setup-your-account

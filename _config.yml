@@ -24,13 +24,6 @@ defaults:
       show_sidebar: false
       menubar: faq-nav
   -
-      scope :
-      path: ""
-    values:
-      layout: "page"
-      show_sidebar: false
-      menubar: get-started
-  -
     scope :
       path: "nl/nl"
     values:

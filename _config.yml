@@ -1,0 +1,40 @@
+/*theme: jekyll-theme-cayman*/
+remote_theme: chrisrhymes/bulma-clean-theme
+countries:
+  - country: "Nederland"
+    code: "nl"
+    defaultlanguage: "nl"
+    languages: "nl,en"
+  - country: "Deutschland"
+    code: "de"
+    defaultlanguage: "de"
+    languages: "de"
+  
+title: Madaster Documentation
+
+exclude:
+  - README.md
+  
+defaults:
+  -
+    scope :
+      path: ""
+    values:
+      layout: "page"
+      show_sidebar: false
+      menubar: faq-nav
+  -
+    scope :
+      path: "nl/nl"
+    values:
+      country: "nl"
+      lang_name: "Nederlands"
+      lang: "nl"
+  -
+    scope :
+      path: "nl/en"
+    values:
+      country: "nl"
+      lang_name: "English"
+      lang: "en"
+  

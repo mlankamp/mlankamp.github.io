@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      fetch('https://api.db-ip.com/v2/free/self')
+      .then( res => res.json())
+      .then(response => {
+        var country="nl";
+        var language="en";
+        var countries= JSON.parse('{{ site.countries | jsonify }}');
+        console.log("Country: ", response.countryCode );
+        var countryCode = response.countryCode.toLowerCase();
+
+        if (countries.some(t=> t.code === countryCode)) {
+              country = countryCode;
+        }
+        
+        var lang = navigator.language || navigator.userLanguage;
+        if (lang)
+        {
+          var langs= lang.split('-');
+          if (countries.some(t=> t.code==country && t.languages.split(',').some(x=> x==langs[0]))) {
+            language=langs[0];
+          } else {
+            language = countries.filter(t=> t.code==country)[0].defaultlanguage;
+          }
+        }
+        if (country && language){
+          window.location = "/" + country + "/" + language;
+        }
+      else {
+        window.location = "/nl/en";
+      }
+      })
+      .catch((data, status) => {
+        window.location = "/nl/en";
+    });
+    </script>
+    <title>Madaster documentation</title>
+  </head>
+  <body>
+    <noscript>This page uses javascript to redirect you to the correct <a href="/nl/en" aria-label="Madaster documentation for The Netherlands">country specific</a> documentation.</noscript>
+  </body>
+</html>

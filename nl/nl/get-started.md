@@ -11,7 +11,7 @@ Create your account, structure your account, invite team members, customize your
 ### Create your account
 
 1. Go to https://registration.madaster.com and sign up for the appropriate Subscription that matches your needs.
-2. Badge with solid fillCheck your inbox for a confirmation email. Use the link therein, or
+2. Check your inbox for a confirmation email. Use the link therein, or
 3. go to the Madaster platform by logging in at https://platform.madaster.com/. Login with your company account or personal email.
 
 ### Invite and organize your team

@@ -552,7 +552,7 @@ min-height: Calc(100vh - 188px);
 .link-chain {
   visibility: hidden;
   padding: 0.5rem;
-  margin-left: -2rem;
+  margin-left: -2.4rem;
 }
 
 .content .link-chain::after {

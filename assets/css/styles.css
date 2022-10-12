@@ -549,6 +549,12 @@ min-height: Calc(100vh - 188px);
   scroll-margin-top: 130px;
 }
 
+@media (max-width: 959px) {
+  .linkable-title {
+    scroll-margin-top: 82px;
+  }
+}
+
 .link-chain {
   visibility: hidden;
   padding: 0.5rem;

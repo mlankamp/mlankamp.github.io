@@ -9,9 +9,7 @@ Create your account, structure your account, invite team members, customize your
 
 <h3 class="linkable-title" id="create-your-account">
 <a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#create-your-account"><img src="/assets/images/link-chain.svg"/></a>
-
 Create your account
-
 </h3>
 
 1. Go to https://registration.madaster.com and sign up for the appropriate Subscription that matches your needs.
@@ -20,9 +18,7 @@ Create your account
 
 <h3 class="linkable-title" id="invite-and-organize-your-team">
 <a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#invite-and-organize-your-team"><img src="/assets/images/link-chain.svg"/></a>
-
 Invite and organize your team
-
 </h3>
 
 From your account, individual users can be added. Madaster enables each user to have their own access and permissions. 

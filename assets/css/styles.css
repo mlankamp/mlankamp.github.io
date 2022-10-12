@@ -507,7 +507,7 @@ p {
   content: "";
   position: absolute;
   width: 100%;
-  scaleX: 0;
+  transform: scaleX(0);
   height: 1px;
   bottom: 0px;
   left: 0;
@@ -517,7 +517,7 @@ p {
 }
 
 .content a:hover::after {
-  scaleX: 1;
+  transform: scaleX(1);
   transform-origin: bottom left;
 }
 

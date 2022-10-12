@@ -14,7 +14,7 @@ Create your account, structure your account, invite team members, customize your
 2. Check your inbox for a confirmation email. Use the link therein, or
 3. go to the Madaster platform by logging in at https://platform.madaster.com/. Login with your company account or personal email.
 
-### Invite and organize your team
+<h3 id="invite-and-organize-your-team">Invite and organize your team</h3>
 
 From your account, individual users can be added. Madaster enables each user to have their own access and permissions. 
 

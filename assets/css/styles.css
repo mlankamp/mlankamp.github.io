@@ -553,9 +553,10 @@ min-height: Calc(100vh - 188px);
 }
 
 .link-chain::after {
-  content: none;
+  content: none !important;
 }
 
-.linkable-title:hover .link-chain {
+.linkable-title:hover .link-chain,
+.link-chain:hover {
   visibility: visible;
 }

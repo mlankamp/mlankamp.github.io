@@ -7,10 +7,7 @@ menubar: get-started-nav
 
 Create your account, structure your account, invite team members, customize your account settings, and manage your Madaster subscription 
 
-<h3 class="linkable-title" id="create-your-account">
-<a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#create-your-account"><img src="/assets/images/link-chain.svg"/></a>
-Create your account
-</h3>
+<h3 class="linkable-title" id="create-your-account"><a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#create-your-account"><img src="/assets/images/link-chain.svg"/></a>Create your account</h3>
 
 1. Go to https://registration.madaster.com and sign up for the appropriate Subscription that matches your needs.
 2. Check your inbox for a confirmation email. Use the link therein, or

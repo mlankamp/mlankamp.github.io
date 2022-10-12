@@ -555,10 +555,6 @@ min-height: Calc(100vh - 188px);
   margin-left: -2rem;
 }
 
-.link-chain svg {
-  fill: #363636;
-}
-
 .content .link-chain::after {
   content: none;
 }

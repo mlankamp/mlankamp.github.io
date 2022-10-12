@@ -546,7 +546,7 @@ min-height: Calc(100vh - 188px);
 }
 
 .linkable-title {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 130px; // To offset the anchors
 }
 
 .link-chain {
@@ -560,7 +560,7 @@ min-height: Calc(100vh - 188px);
   content: none;
 }
 
-.linkable-title span:hover .link-chain,
+.linkable-title:hover .link-chain,
 .link-chain:hover {
   visibility: visible;
 }

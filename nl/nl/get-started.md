@@ -2,8 +2,8 @@
 title: Get started
 ref: get-started
 menubar: get-started-nav
-class: guide
 ---
+<article>
 
 ## Set up your account
 
@@ -46,3 +46,5 @@ If desired, activate, use and evaluate new Features from the account-level Featu
 1. At account-level, click Subscription 
 2. View the summary usage of your account. 
 3. Modify or cancel your subscription as necessary.  
+
+</article>

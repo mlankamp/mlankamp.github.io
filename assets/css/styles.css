@@ -503,7 +503,7 @@ p {
   position: relative;
 }
 
-.content a::after {
+.content a::after:not(.link-chain) {
   content: "";
   position: absolute;
   width: 100%;

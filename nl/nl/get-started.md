@@ -3,19 +3,22 @@ title: Get started
 ref: get-started
 menubar: get-started-nav
 ---
-<article>
-
 ## Set up your account
 
 Create your account, structure your account, invite team members, customize your account settings, and manage your Madaster subscription 
 
-### Create your account
+<h3 class="linkable-title" id="create-your-account">
+<a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#create-your-account"><img src="/assets/images/link-chain.svg"/></a>
+
+Create your account
+
+</h3>
 
 1. Go to https://registration.madaster.com and sign up for the appropriate Subscription that matches your needs.
 2. Check your inbox for a confirmation email. Use the link therein, or
 3. go to the Madaster platform by logging in at https://platform.madaster.com/. Login with your company account or personal email.
 
-<h3 id="invite-and-organize-your-team">
+<h3 class="linkable-title" id="invite-and-organize-your-team">
 <a aria-hidden="" tabindex="-1" class="link-chain" href="get-started#invite-and-organize-your-team"><img src="/assets/images/link-chain.svg"/></a>
 
 Invite and organize your team
@@ -46,5 +49,3 @@ If desired, activate, use and evaluate new Features from the account-level Featu
 1. At account-level, click Subscription 
 2. View the summary usage of your account. 
 3. Modify or cancel your subscription as necessary.  
-
-</article>

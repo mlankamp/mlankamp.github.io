@@ -546,7 +546,12 @@ min-height: Calc(100vh - 188px);
 }
 
 .link-chain {
+  display: none;
   padding: 0.5rem;
   margin-left: -2rem;
   color: #363636;
+}
+
+.linkable-title:hover .link-chain {
+  display: block;
 }

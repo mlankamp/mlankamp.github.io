@@ -503,7 +503,7 @@ p {
   position: relative;
 }
 
-.content a::after:not(.link-chain) {
+.content a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -552,8 +552,8 @@ min-height: Calc(100vh - 188px);
   color: #363636;
 }
 
-.link-chain::after {
-  content: none !important;
+.content .link-chain::after {
+  content: none;
 }
 
 .linkable-title:hover .link-chain,
